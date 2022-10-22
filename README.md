@@ -1,8 +1,12 @@
 # aaai2023
 aaai2023 rebuttal
 
+You are very knowledgeable. LEAP[2] and OFA[3] are among the pioneers of head-to-tail knowledge transfer, which we have discussed in related work. We have shown the performance of FUR with decoupled training in Table 4 and OFA with decoupled training in Table 3, and we can observe that the overall performance of our approach is 19.6% and 6.2% higher than OFA on ImageNet-LT and iNaturalist2018, respectively. Based on your suggestion, we supplemented the performance when FUR, OFA, and LEAP are all trained with three stages, and the results are as follows.
+
 |      | ImageNet-LT | iNaturalist2018 |
 |------|-------------|-----------------|
 | LEAP | 43.7%       | 65.8%           |
 | OFA  | 36.4%       | 67.2%           |
 |  FUR | 55.1%       | 72.3%           |
+
+[2] Deep Representation Learning on Long-tailed Data: A Learnable Embedding Augmentation Perspective [3] Feature Space Augmentation for Long-Tailed Data
