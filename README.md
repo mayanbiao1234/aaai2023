@@ -11,5 +11,9 @@ You are very knowledgeable. LEAP[2] and OFA[3] are among the pioneers of head-to
 
 [2] Deep Representation Learning on Long-tailed Data: A Learnable Embedding Augmentation Perspective [3] Feature Space Augmentation for Long-Tailed Data
 
+# Weakness2: 
+Following the accepted settings, the batch size on ImageNet-LT and iNaturalist2018 is 256 and 512, respectively. For a fair comparison, we align with OFA and choose N_A to be 3, so N_T is 32 and 64 on ImageNet-LT and
+iNaturalist2018, respectively.
+
 # Weakness 4: 
 We argue that although the bias of the classifier is improved after decoupled training, the ability of the feature sub-network to adapt to the new decision boundary is ignored.
